@@ -1,0 +1,121 @@
+/* Navigation */
+.nav-desktop {
+    top: 0%;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    padding: 1rem;
+    position: fixed;
+    justify-content: space-between;
+    background: rgba(251,251,251, 0.9);
+}
+
+.nav-link {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* FOOTER */
+.footer-desktop {
+    width: 100%;
+    justify-content: space-between;
+}
+.footer-space {
+    padding: 16px;
+}
+.footer-desktop-line-two {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.link-footer {
+    display: flex;
+    gap: 16px;
+}
+.footer-mw295 {
+    width: 295px;
+}
+.test {
+    height: 300vh;
+}
+
+/* ==================== 
+Product Page
+==================== */
+.one {
+height: 300vh;
+}
+.two {
+    width: 50%;
+}
+.three {
+    height: 100vh;
+    top: 0px;
+    width: 50%;
+    position: sticky;
+}
+.three-one {
+    width: 342px;
+    display: grid;
+}
+
+
+/* ==================== 
+Product-Window
+==================== */
+.product-window {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+.test-object {
+    aspect-ratio: 3/4;
+    width: 32.7%;
+    background-color: #F3F3F3;
+}
+.showmore-block {
+    height: 17px;
+    width: 100%;
+}
+.showmore-txt {
+    display: none;
+}
+.showmore-txt {
+    display: hide;
+}
+.showmore-hover:hover .showmore-txt {
+    display: block;
+}
+
+
+/* ==================== 
+FAQ 
+==================== */
+.item-one {
+    width: 100%;
+    height: auto;
+}
+
+
+/* ==================== 
+Two-Section
+==================== */
+.two-section {
+    gap: 16;
+}
+.two-section-child {
+    width: 50%;
+}
+.gap-16 {
+    width: 16px;
+}
+.two-one {
+    top: 64px;
+    width: 50%;
+    position: sticky;
+}
+.two-two {
+    width: 342px;
+    display: grid;
+}
